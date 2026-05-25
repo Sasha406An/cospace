@@ -11,7 +11,8 @@
 "python -m pip install -r requirements.txt"
 
 &#x09;Если выдает ошибку, можно использовать прямой путь:
-	"\& "$env:LOCALAPPDATA\\Programs\\Python\\Python313\\python.exe" -m pip install -r requirements.txt"
+
+&#x09;"\& "$env:LOCALAPPDATA\\Programs\\Python\\Python313\\python.exe" -m pip install -r requirements.txt"
 
 2. Запустить веб-сервер:
 
@@ -23,7 +24,7 @@
 
 После запуска интерактивная документация API (Swagger) будет доступна по адресу: http://127.0.0.1:8000/docs
 
-3. Запуск автоматических тестов:
+3. Запуск автоматических тестов (через второй терминал):
 
 "python -m pytest"
 
